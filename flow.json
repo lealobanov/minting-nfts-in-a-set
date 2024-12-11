@@ -117,9 +117,7 @@
 	"deployments": {
 		"emulator": {
 			"emulator-account": [
-				"Recipe",
-				"TopShot",
-				"TopShotLocking"
+				"Recipe"
 			]
 		}
 	}
