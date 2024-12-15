@@ -1,6 +1,6 @@
 import "SetAndSeries"
 
-access(all) contract Recipe{
+access(all) contract Recipe {
     // More code from Series resource above...
 
     access(all)
