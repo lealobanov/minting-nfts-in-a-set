@@ -3,7 +3,8 @@
 		"Recipe": {
 			"source": "./cadence/contracts/Recipe.cdc",
 			"aliases": {
-				"emulator": "f8d6e0586b0a20c7"
+				"emulator": "f8d6e0586b0a20c7",
+				"testing": "0000000000000007"
 			}
 		}
 	},
@@ -77,6 +78,7 @@
 			"aliases": {
 				"emulator": "f8d6e0586b0a20c7",
 				"mainnet": "0b2a3299cc857e29",
+				"testing": "0000000000000007",
 				"testnet": "877931736ee77cff"
 			}
 		},
@@ -86,6 +88,7 @@
 			"aliases": {
 				"emulator": "f8d6e0586b0a20c7",
 				"mainnet": "0b2a3299cc857e29",
+				"testing": "0000000000000007",			
 				"testnet": "877931736ee77cff"
 			}
 		},
@@ -117,7 +120,9 @@
 	"deployments": {
 		"emulator": {
 			"emulator-account": [
-				"Recipe"
+				"Recipe",
+				"TopShot",
+				"TopShotLocking"
 			]
 		}
 	}
